@@ -43,7 +43,7 @@ Finally, the last quantifier that is used in the URL matching regex is the aster
 
 
 ### OR Operator
-
+This regex does not use any specific OR operator (|).
 
 ### Character Classes
 There are two character classes used in this regular expression:
@@ -72,6 +72,7 @@ The second bracket expression is in the third capturing group is [a-z\.]. This e
 All of the quantifiers in this regex are greedy by default. The difference in greedy and lazy match quantifiers is that greedy match matches as much as they can while still keeping in line with the matching rules. "*" and "?" are both greedy in this regex. 
 
 ### Boundaries
+Boundary (\b) is not used specifically in this regular expression but it is anchored with "^" at the beginning of the string and "$" at the end. 
 
 ### Back-references
 There are no back-references in this regex. 
@@ -79,7 +80,11 @@ There are no back-references in this regex.
 ### Look-ahead and Look-behind
 There are no look-ahead or look-behind assertions in this regex.
 
+### Resources
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet]
+
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Alex Purfield: [https://github.com/AlexPurfield]
 
