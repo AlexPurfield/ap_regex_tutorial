@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# RegEx Tutorial: Matching a URL
 
-Introductory paragraph (replace this with your text)
+The following tutorial will breakdown a regular expression that is used for matching and verifying URLs. A regular expression or regex, is a series of characters that define a search pattern. They allow you to describe, match, or parse through text. With this URL matching regex we will verify a url matches a certain format.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```
+The regex above is used for matching and verifying URLs. I will be breaking down the various regex components such as the anchors, quantifiers, OR operators, character classes, and flags in this expression.
+
 
 ## Table of Contents
 
@@ -21,6 +23,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+Between the two ways to create a regex object, literal notation and constructor function notation, the Matching URL regex is in literal notation- meaning the pattern is wrapped in slashes (/). The 
+
 
 ### Anchors
 
@@ -47,3 +51,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
